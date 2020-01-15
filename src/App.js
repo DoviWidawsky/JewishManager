@@ -1,17 +1,19 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <div className="sideMenu">
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <div className="sideMenu">
         
-      </div>
-      <div className="mainScreen">
+        </div>
+        <div className="mainScreen">
 
+        </div>
       </div>
-    </div>
-  );
+    )
+  }
 }
 
-export default App;
+export default App
+
