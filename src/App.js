@@ -4,12 +4,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="sideMenu">
-        
-        </div>
-        <div className="mainScreen">
-
-        </div>
+        Manage
       </div>
     )
   }
