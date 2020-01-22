@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Report from './components/screens/Report.js';
+import {Report} from './components/screens';
 
 class App extends Component {
   render () {

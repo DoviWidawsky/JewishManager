@@ -5,7 +5,8 @@
     "user_first_name": "yedaya",
     "user_last_name": "schwalm",
     "report_date": "27/08/91",
-    "report_type": "loading-error"
+    "report_type": "loading-error",
+    "title": "title1"
   },
   {
     "report_id": "827192",
@@ -13,6 +14,16 @@
     "user_first_name": "Dovi",
     "user_last_name": "Vidavsko",
     "report_date": "27/08/91",
-    "report_type": "loading-error"
+    "report_type": "loading-error",
+    "title": "title2"
+  },
+  {
+    "report_id": "123456",
+    "user_id": "AVKO1204424",
+    "user_first_name": "YOOO",
+    "user_last_name": "Vidavsko",
+    "report_date": "27/08/91",
+    "report_type": "loading-error",
+    "title": "title3"
   }
 ]
