@@ -24,6 +24,22 @@ const useStyles = makeStyles(theme => ({
 }));
 
 class Edit extends Component {
+
+    handleSend = (props) => {
+        // create a new XMLHttpRequest
+    var xhr = new XMLHttpRequest()
+
+    // get a callback when the server responds
+    xhr.addEventListener('load', () => {
+      // update the state of the component with the result here
+      console.log(xhr.responseText)
+    })
+    // open the request with the verb and the url
+    xhr.open('POST', 'https://example.com')
+    // send the request
+    xhr.send(JSON.stringify({ example: props }))
+    }
+
     render() {
         return (
             <div>
@@ -43,7 +59,7 @@ class Edit extends Component {
                     <TextField id="name-in-hebrew" label="שם בעברית" />
                     <TextField id="name-in-english" label="שם באנגלית" />
                 </div>
-                <Button variant="contained" color="primary">
+                <Button variant="contained" color="primary" onClick={this.handleSend}>
                     אישור
                 </Button>
             </div>

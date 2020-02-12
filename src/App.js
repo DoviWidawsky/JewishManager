@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import {Report} from './components/screens';
+import Login from './components/screens/Login';
+
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <div className="sideMenu">
-          <Report />
-        </div>
-        <div className="mainScreen" />
+        <Login/>
       </div>
     );
   }

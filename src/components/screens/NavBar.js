@@ -14,6 +14,7 @@ import '../../index.css';
 import App from '../../App';
 import Edit from './Edit'
 import util from '../util'
+import {Report} from '../screens'
 
 
 const useStyles = makeStyles(theme => ({
@@ -66,7 +67,7 @@ export default function ButtonAppBar() {
                     </Toolbar>
                 </AppBar>
                 <Route exact path="/" component={App} />
-                <Route path="/report" component={util} />
+                <Route path="/report" component={Report} />
                 <Route path="/edit" component={Edit} />
             </div>
         </Router>
