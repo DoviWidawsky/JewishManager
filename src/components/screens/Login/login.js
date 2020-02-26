@@ -39,7 +39,7 @@ export default function SignIn(props) {
   const [password, setPassword] = useState("");
 
   function onClick() {
-    if (userName == "admin" && password == "1234") {
+    if (userName === "admin" && password === "1234") {
       props.setIsUnlocked();
     } else {
       console.log("Wrong User/Password");

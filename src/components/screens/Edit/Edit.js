@@ -7,21 +7,6 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    '& > *': {
-      margin: theme.spacing(1),
-      width: 200,
-    },
-    formControl: {
-        margin: theme.spacing(1),
-        minWidth: 120,
-    },
-    selectEmpty: {
-        marginTop: theme.spacing(2),
-    },
-  },
-}));
 
 class Edit extends Component {
 
@@ -42,7 +27,7 @@ class Edit extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <h1>עריכת אזכרות</h1>
                 <div>
                 <FormControl className="formControl">

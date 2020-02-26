@@ -12,9 +12,8 @@ import ReactDOM from "react-dom";
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import "../../index.css";
 import App from "../../App";
-import Edit from "./Edit";
 import util from "../util";
-import { Report } from "../screens";
+import { Report, Edit } from "./index";
 import Login from "./Login/login";
 
 const useStyles = makeStyles(theme => ({
